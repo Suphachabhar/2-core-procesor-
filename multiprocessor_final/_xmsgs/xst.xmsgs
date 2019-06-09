@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/ise/shared/multiprocessor/multiprocessor/instruction_memory_1.vhd" Line 47: <arg fmt="%s" index="1">reset</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/ise/shared/multiprocessor/multiprocessor/instruction_memory_1.vhd" Line 40: Assignment to <arg fmt="%s" index="1">sig_insn_mem</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/ise/shared/multiprocessor/multiprocessor/instruction_memory_2.vhd" Line 47: <arg fmt="%s" index="1">reset</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/ise/shared/multiprocessor/multiprocessor/instruction_memory_2.vhd" Line 40: Assignment to <arg fmt="%s" index="1">sig_insn_mem</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/ise/shared/multiprocessor/multiprocessor/data_memory.vhd" Line 82: <arg fmt="%s" index="1">reset</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/ise/shared/multiprocessor/multiprocessor/data_memory.vhd" Line 55: Assignment to <arg fmt="%s" index="1">sig_data_mem</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/ise/shared/multiprocessor/multiprocessor/register_file.vhd" Line 47: Assignment to <arg fmt="%s" index="1">sig_regfile</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/shared/multiprocessor/multiprocessor/processor.vhd</arg>&quot; line <arg fmt="%s" index="2">219</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">next_pc</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/shared/multiprocessor/multiprocessor/processor.vhd</arg>&quot; line <arg fmt="%s" index="2">235</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">curr_pc</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/shared/multiprocessor/multiprocessor/processor.vhd</arg>&quot; line <arg fmt="%s" index="2">339</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">next_pc_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/shared/multiprocessor/multiprocessor/processor.vhd</arg>&quot; line <arg fmt="%s" index="2">424</arg>: Output port &lt;<arg fmt="%s" index="3">carry_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alu</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/shared/multiprocessor/multiprocessor/processor.vhd</arg>&quot; line <arg fmt="%s" index="2">424</arg>: Output port &lt;<arg fmt="%s" index="3">zero</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alu</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_addr_in[4]_mem_process.var_insn_mem[31][19]_wide_mux_0_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_addr_in[4]_mem_process.var_insn_mem[31][19]_wide_mux_0_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">ID_EX_insn_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">processor</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ID_EX_sign_extended_offset_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">ID_EX_insn_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">processor</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ID_EX_sign_extended_offset_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">ID_EX_insn_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">processor</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ID_EX_sign_extended_offset_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">ID_EX_insn_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">processor</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ID_EX_sign_extended_offset_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">ID_EX_sign_extended_offset_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">processor</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ID_EX_sign_extended_offset_8&gt; &lt;ID_EX_sign_extended_offset_9&gt; &lt;ID_EX_sign_extended_offset_10&gt; &lt;ID_EX_sign_extended_offset_11&gt; &lt;ID_EX_sign_extended_offset_12&gt; &lt;ID_EX_sign_extended_offset_13&gt; &lt;ID_EX_sign_extended_offset_14&gt; &lt;ID_EX_sign_extended_offset_15&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">insn_out_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">instruction_memory_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">insn_out_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">instruction_memory_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">insn_out_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">instruction_memory_2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">insn_out_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">instruction_memory_2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">IF_ID_insn_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">processor</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IF_ID_rs_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">IF_ID_insn_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">processor</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IF_ID_rs_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">IF_ID_insn_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">processor</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IF_ID_rs_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">IF_ID_insn_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">processor</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IF_ID_rs_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">IF_ID_insn_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">processor</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IF_ID_rt_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">IF_ID_insn_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">processor</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IF_ID_rt_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">IF_ID_insn_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">processor</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IF_ID_rt_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">IF_ID_insn_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">processor</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IF_ID_rt_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">ID_EX_rt_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">processor</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ID_EX_insn_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">ID_EX_rt_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">processor</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ID_EX_insn_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">ID_EX_rt_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">processor</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ID_EX_insn_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">ID_EX_rt_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">processor</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ID_EX_insn_7&gt; </arg>
+</msg>
+
+</messages>

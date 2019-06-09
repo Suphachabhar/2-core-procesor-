@@ -1,0 +1,52 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/shared/multiprocessor/testbench_isim_beh.exe -prj /home/ise/shared/multiprocessor/testbench_beh.prj work.testbench 
+ISim P.20160913 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/shared/multiprocessor/mux_2to1_1b.vhd" into library work
+Parsing VHDL file "/home/ise/shared/multiprocessor/sign_extend_8to16.vhd" into library work
+Parsing VHDL file "/home/ise/shared/multiprocessor/register_file.vhd" into library work
+Parsing VHDL file "/home/ise/shared/multiprocessor/program_counter.vhd" into library work
+Parsing VHDL file "/home/ise/shared/multiprocessor/mux_2to1_5b.vhd" into library work
+Parsing VHDL file "/home/ise/shared/multiprocessor/mux_2to1_4b.vhd" into library work
+Parsing VHDL file "/home/ise/shared/multiprocessor/mux_2to1_16b.vhd" into library work
+Parsing VHDL file "/home/ise/shared/multiprocessor/control_unit.vhd" into library work
+Parsing VHDL file "/home/ise/shared/multiprocessor/adder_5b.vhd" into library work
+Parsing VHDL file "/home/ise/shared/multiprocessor/adder_16b.vhd" into library work
+Parsing VHDL file "/home/ise/shared/multiprocessor/processor.vhd" into library work
+Parsing VHDL file "/home/ise/shared/multiprocessor/instruction_memory_2.vhd" into library work
+Parsing VHDL file "/home/ise/shared/multiprocessor/instruction_memory_1.vhd" into library work
+Parsing VHDL file "/home/ise/shared/multiprocessor/data_memory.vhd" into library work
+Parsing VHDL file "/home/ise/shared/multiprocessor/main.vhd" into library work
+Parsing VHDL file "/home/ise/shared/multiprocessor/testbench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 99444 KB
+Fuse CPU Usage: 1080 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity instruction_memory_1 [instruction_memory_1_default]
+Compiling architecture behavioral of entity instruction_memory_2 [instruction_memory_2_default]
+Compiling architecture behavioral of entity data_memory [data_memory_default]
+Compiling architecture behavioural of entity adder_5b [adder_5b_default]
+Compiling architecture behavioral of entity program_counter [program_counter_default]
+Compiling architecture behavioural of entity mux_2to1_1b [mux_2to1_1b_default]
+Compiling architecture structural of entity mux_2to1_5b [mux_2to1_5b_default]
+Compiling architecture behavioral of entity sign_extend_8to16 [sign_extend_8to16_default]
+Compiling architecture behavioural of entity control_unit [control_unit_default]
+Compiling architecture behavioral of entity register_file [register_file_default]
+Compiling architecture structural of entity mux_2to1_4b [mux_2to1_4b_default]
+Compiling architecture structural of entity mux_2to1_16b [mux_2to1_16b_default]
+Compiling architecture behavioural of entity adder_16b [adder_16b_default]
+Compiling architecture behavioral of entity processor [processor_default]
+Compiling architecture behavioral of entity main [main_default]
+Compiling architecture behavior of entity testbench
+Time Resolution for simulation is 1ps.
+Compiled 36 VHDL Units
+Built simulation executable /home/ise/shared/multiprocessor/testbench_isim_beh.exe
+Fuse Memory Usage: 118316 KB
+Fuse CPU Usage: 1300 ms
+GCC CPU Usage: 700 ms
